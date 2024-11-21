@@ -1,0 +1,12 @@
+{
+  "default": {
+    "openfhe": {
+      "baseline": "1.2.3",
+      "port-version": 0
+    },
+    "nlohmann-json": {
+      "baseline": "3.11.3",
+      "port-version": 0
+    }
+  }
+}
