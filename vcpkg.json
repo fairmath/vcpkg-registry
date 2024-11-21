@@ -1,9 +1,9 @@
 {
   "name": "fairmath-vcpkg-registry",
-  "version": 1.0.0,
+  "version": "1.0.0",
   "dependencies": [
     "openfhe",
     "nlohmann-json"
   ],
-  "builtin-baseline": "82788923a16a227dbbc4afe9af80bd2eb8a53329"
+  "builtin-baseline": "c96a3f739bb3c71026636605a0eb2bd9e6037673"
 }
