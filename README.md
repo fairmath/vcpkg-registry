@@ -1,1 +1,6 @@
-# vcpkg-registry
+# FairMath VCPKG Registry
+
+Ports:
+
+* nlohmann-json
+* OpenFHE
