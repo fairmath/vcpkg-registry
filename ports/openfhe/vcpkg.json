@@ -1,6 +1,7 @@
 {
   "name": "openfhe",
   "version": "1.2.3",
+  "port-version": 1,
   "homepage": "https://github.com/openfheorg/openfhe-development",
   "description": "Open-Source Fully Homomorphic Encryption Library",
   "license": "MIT",
