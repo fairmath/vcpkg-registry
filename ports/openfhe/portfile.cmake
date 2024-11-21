@@ -31,6 +31,11 @@ vcpkg_execute_required_process(
 
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
+    OPTIONS 
+        -DBUILD_UNITTESTS=OFF
+        -DBUILD_EXAMPLES=OFF
+        -DBUILD_BENCHMARKS=OFF
+        -DBUILD_STATIC=ON
 )
 
 vcpkg_cmake_install()
