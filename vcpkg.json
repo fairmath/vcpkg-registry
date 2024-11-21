@@ -1,0 +1,8 @@
+{
+  "$comment": "Dependency list",
+  "dependencies": [
+    "openfhe",
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "8add7d8d030911da3d9f0056664cf0b2af39131b"
+}
