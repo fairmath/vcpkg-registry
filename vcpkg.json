@@ -4,5 +4,5 @@
     "openfhe",
     "nlohmann-json"
   ],
-  "builtin-baseline": "d14ca0ae73e6935f988352ac2829632b57ab7871"
+  "builtin-baseline": "f4e3ad10fa10427a57c81890de0d72054dcb1ecc"
 }
