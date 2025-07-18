@@ -7,6 +7,10 @@
     "nlohmann-json": {
       "baseline": "3.11.3",
       "port-version": 0
+    },
+    "onnxruntime": {
+      "baseline": "1.22.0",
+      "port-version": 0
     }
   }
 }
