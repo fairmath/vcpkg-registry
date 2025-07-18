@@ -16,13 +16,15 @@ if(NOT EXISTS "${SOURCE_PATH}/.git")
         COMMAND ${GIT} clone ${GIT_URL} ${SOURCE_PATH} 
 	WORKING_DIRECTORY ${SOURCE_PATH} 
 	LOGNAME clone)
-
-    message(STATUS "Checkout v${VERSION}")
-    vcpkg_execute_required_process(
-        COMMAND ${GIT} checkout tags/v${VERSION} -b v${VERSION}
-        WORKING_DIRECTORY ${SOURCE_PATH}
-        LOGNAME checkout)
 endif()
+
+file(REMOVE "${SOURCE_PATH}/.git/config.lock")
+
+message(STATUS "Checkout v${VERSION}")
+vcpkg_execute_required_process(
+    COMMAND ${GIT} checkout tags/v${VERSION} 
+    WORKING_DIRECTORY ${SOURCE_PATH}
+    LOGNAME checkout)
 
 vcpkg_execute_required_process(
     COMMAND ${GIT} submodule update --recursive --init 
